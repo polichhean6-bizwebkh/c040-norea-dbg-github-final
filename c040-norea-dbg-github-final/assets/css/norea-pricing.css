@@ -1,0 +1,31 @@
+.norea-latest{margin-top:44px;padding-top:36px;border-top:1px solid var(--line)}
+.norea-latest h3,.norea-costs h3{font-size:1.8rem;margin:12px 0 18px}
+.norea-list-date{font-weight:600;margin:18px 0;color:var(--gold-deep)}
+.norea-list-note{font-size:13px;color:var(--ink-soft);margin:16px 0;max-width:1000px}
+.norea-list-actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.norea-table-scroll{overflow-x:auto;max-width:100%;border:1px solid var(--line);margin:20px 0;background:var(--paper)}
+.norea-detail-table{width:100%;min-width:850px;border-collapse:collapse}
+.norea-detail-table th,.norea-detail-table td{padding:15px 17px;text-align:left;border-bottom:1px solid var(--line);font-size:13px;white-space:nowrap}
+.norea-detail-table thead th{background:var(--paper-alt);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.norea-detail-table tbody th{font-weight:600}
+.norea-detail-table small{display:block;color:var(--ink-soft);font-size:11px}
+.norea-detail-table tr[hidden]{display:none}
+.unit-status{font-size:10px;letter-spacing:.06em;padding:5px 8px;border-radius:var(--radius);display:inline-block}
+.unit-status.sold{background:var(--paper-alt);color:var(--ink-soft)}
+.unit-status.available{background:#e7eee9;color:var(--teal-deep)}
+.norea-costs{margin-top:36px;padding:26px;background:var(--paper-alt);border:1px solid var(--line)}
+.norea-cost-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;margin:24px 0 0}
+.norea-cost-grid dt{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft)}
+.norea-cost-grid dd{margin:8px 0 0;font-family:'Fraunces',Georgia,serif;font-size:1.25rem}
+.norea-cost-grid small{display:block;font:12px 'Inter',sans-serif;margin-top:6px}
+.norea-price-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:24px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.norea-price-header>a:first-child{font-family:'Fraunces',Georgia,serif;font-size:1.5rem}
+.norea-price-page h1{font-size:clamp(2.2rem,5vw,3.5rem)}
+.norea-price-footer{padding-top:24px;padding-bottom:36px;border-top:1px solid var(--line)}
+.norea-filters{display:flex;flex-wrap:wrap;gap:16px;align-items:end;margin:28px 0 20px}
+.norea-filters label{flex:1;min-width:130px;font-size:12px;color:var(--ink-soft)}
+.norea-filters select{display:block;width:100%;margin-top:6px;padding:12px;background:var(--paper);border:1px solid var(--line);color:var(--ink)}
+#norea-results,#norea-empty{font-size:14px;margin:16px 0}
+@media(max-width:900px){.norea-cost-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.norea-cost-grid{grid-template-columns:1fr}.norea-costs{padding:22px}.norea-price-header{flex-wrap:wrap}.norea-list-actions .btn{width:100%;text-align:center;justify-content:center}.norea-price-page .pad-tight{padding:60px 0}.norea-price-page main.container{padding-left:20px;padding-right:20px}}
+
